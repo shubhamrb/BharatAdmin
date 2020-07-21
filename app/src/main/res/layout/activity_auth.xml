@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite">
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="64dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/tv_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_logo"
+        android:layout_marginLeft="24dp"
+        android:text="@string/text_verify_your_mobile_number"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="24sp"
+        android:theme="@style/TextViewBold" />
+
+    <TextView
+        android:id="@+id/tv_info_choice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_welcome"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="48dp"
+        android:text="@string/text_info_choice"
+        android:textColor="@color/colorSecondaryText"
+        android:textSize="17sp"
+        android:theme="@style/TextViewRegular" />
+
+    <RelativeLayout
+        android:id="@+id/rl_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_info_choice"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp">
+
+        <EditText
+            android:id="@+id/et_cc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:inputType="none"
+            android:text="@string/text_country_code"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="19sp"
+            android:theme="@style/EditTextBold" />
+
+        <EditText
+            android:id="@+id/et_mobile_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@+id/et_cc"
+            android:hint="@string/text_phone_number"
+            android:inputType="number"
+            android:maxLength="10"
+            android:textColor="@color/colorPrimaryText"
+            android:textColorHint="@color/colorLightGrey"
+            android:textSize="19sp"
+            android:theme="@style/EditTextBold"
+            android:visibility="visible">
+
+            <requestFocus />
+        </EditText>
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/et_verfication_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_phone_number"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="24dp"
+        android:hint="@string/text_enter_verification_code"
+        android:textColor="@color/colorPrimaryText"
+        android:textColorHint="@color/colorLightGrey"
+        android:textSize="19sp"
+        android:theme="@style/EditTextBold"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/b_submit"
+        style="@style/ButtonBold"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_above="@+id/text_policy"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/text_verify_mobile_number"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite"
+        android:textSize="17sp"
+        android:visibility="visible" />
+
+
+    <TextView
+        android:id="@+id/text_policy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/text_policy"
+        android:textColor="@color/colorSecondaryText"
+        android:textSize="14sp"
+        android:theme="@style/TextViewRegular" />
+
+    <LinearLayout
+        android:id="@+id/ll_mobile_verification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_verfication_code"
+        android:layout_margin="24dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/b_verify"
+            style="@style/ButtonBold"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:layout_weight="0.5"
+            android:text="@string/text_verify_code"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite"
+            android:textSize="17sp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/b_resend"
+            style="@style/ButtonBold"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="0.5"
+            android:text="@string/text_resend_code"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite"
+            android:textSize="17sp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/progress_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.8"
+        android:background="@color/colorWhite"
+        android:visibility="gone">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="74dp"
+            android:scaleType="centerInside"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/loading_5" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#F8A942</color>-->
+<!--    <color name="colorPrimary">#1976d2</color>-->
+    <color name="colorPrimary">#F9AA46</color>
+    <!--<color name="colorPrimary">#ff3950</color>-->
+    <!--<color name="colorPrimary">#ffae29</color>-->
+    <!--<color name="colorPrimary">#00b896</color>-->
+    <color name="colorPrimaryGradient">#FAB148</color>
+<!--    <color name="colorPrimaryDark">#0d47a1</color>-->
+    <color name="colorPrimaryDark">#F3F5F9</color>
+    <!--    <color name="colorPrimaryDark">#c17a08</color>-->
+    <color name="colorAccent">#F9AA46</color>
+    <color name="colorAccent2">#00b896</color>
+    <color name="colorBackground">#F3F5F9</color>
+    <!--<color name="bgBottomNavigation">#F8A942</color>-->
+    <color name="bgBottomNavigation">#FC642D</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#484848</color>
+    <color name="colorPrimaryText">#484848</color>
+    <color name="colorSecondaryText">#767676</color>
+    <color name="colorBlackBorder">#f5f5f5</color>
+    <!--<color name="colorOrangeBorder">#00DAAF</color>-->
+    <color name="colorOrangeBorder">#00b896</color>
+    <color name="colorOrangeBorder2">#00DAAF</color>
+    <color name="colorCard">#33000000</color>
+    <color name="colorGrey">#354356</color>
+    <color name="colorLightGrey">#D5D5D5</color>
+    <color name="accent2">#e0e0e0</color>
+    <color name="colorDivider">#eeeeee</color>
+    <color name="colorButton">#04724D</color>
+    <color name="colorButton2">#0D21A1</color>
+    <color name="colorButton3">#2D080A</color>
+    <color name="colorButton8">#AA8F66</color>
+    <color name="colorButton6">#06D6A0</color>
+    <color name="colorButton7">#66D7D1</color>
+    <color name="colorButton5">#F9DF74</color>
+    <color name="colorButton4">#92BFB1</color>
+    <color name="search_layover_bg">#1976d2</color>
+    <color name="color4">#95C674</color>
+    <color name="color5">#F1985C</color>
+    <color name="color6">#FED970</color>
+    <color name="color7">#70cdb2</color>
+    <color name="color8">#80deea</color>
+
+
+    <color name="colorOfferCategoryButton">#757575</color>
+    <color name="colorOfferCategoryButtonGradient">#212121</color>
+</resources>

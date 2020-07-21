@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="24dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="@string/text_member_name"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="14sp"
+        android:theme="@style/TextViewRegular" />
+
+    <EditText
+        android:id="@+id/et_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:inputType="textCapWords"
+        android:maxLines="1"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="17sp"
+        android:theme="@style/EditTextMedium"
+        tools:text="XYZ Name" />
+
+    <TextView
+        android:id="@+id/tv_mob_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="24dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="@string/text_mobile_no"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="14sp"
+        android:theme="@style/TextViewRegular" />
+
+    <EditText
+        android:id="@+id/et_mobile_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:inputType="number"
+        android:maxLines="1"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="17sp"
+        android:theme="@style/EditTextMedium"
+        tools:text="768XXX4598" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginRight="24dp"
+            android:layout_toLeftOf="@+id/tv_done"
+            android:gravity="center"
+            android:text="@string/text_close"
+            android:textAllCaps="true"
+            android:textColor="@color/colorAccent"
+            android:textSize="14sp"
+            android:theme="@style/TextViewMedium" />
+
+        <TextView
+            android:id="@+id/tv_done"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:text="@string/text_done"
+            android:textAllCaps="true"
+            android:textColor="@color/colorGrey"
+            android:textSize="14sp"
+            android:theme="@style/TextViewMedium" />
+    </RelativeLayout>
+
+</LinearLayout>

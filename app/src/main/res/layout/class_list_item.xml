@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:elevation="@dimen/cardview_default_elevation"
+    app:cardCornerRadius="@dimen/cardview_default_radius"
+    app:cardElevation="2dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite">
+
+        <TextView
+            android:id="@+id/tv_class_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_toLeftOf="@+id/iv_edit"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="19sp"
+            android:theme="@style/TextViewBold2"
+            tools:text="Computer 10th CBSE" />
+
+        <TextView
+            android:id="@+id/tv_class_students"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_class_name"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:textColor="@color/colorSecondaryText"
+            android:textSize="14sp"
+            android:theme="@style/TextViewRegular"
+            tools:text="12 Students" />
+
+        <TextView
+            android:id="@+id/tv_live_class_in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_class_students"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="16dp"
+            android:textColor="@color/colorSecondaryText"
+            android:textSize="14sp"
+            android:visibility="gone"
+            android:theme="@style/TextViewRegular"
+            tools:text="Live class in 1 hr 20 min" />
+
+        <ImageView
+            android:id="@+id/iv_edit"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentRight="true"
+            android:layout_margin="4dp"
+            android:padding="12dp"
+            android:src="@drawable/ic_mode_edit_black_24dp"
+            android:tint="@color/colorGrey" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

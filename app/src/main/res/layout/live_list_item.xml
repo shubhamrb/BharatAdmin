@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="@dimen/cardview_default_radius">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_live_class_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="64dp"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="19sp"
+            android:theme="@style/TextViewBold2"
+            tools:text="Java Class 3 PM" />
+
+        <TextView
+            android:id="@+id/tv_live_class_teacher_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_live_class_name"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/colorSecondaryText"
+            android:textSize="14sp"
+            android:theme="@style/TextViewRegular"
+            tools:text="by Kisslove" />
+
+        <TextView
+            android:id="@+id/tv_live_class_start_in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_live_class_teacher_name"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:textColor="@color/colorSecondaryText"
+            android:textSize="14sp"
+            android:theme="@style/TextViewRegular"
+            tools:text="starting in 1 hr 20 min" />
+
+        <ImageView
+            android:id="@+id/iv_edit"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentRight="true"
+            android:layout_margin="4dp"
+            android:clickable="true"
+            android:padding="12dp"
+            android:src="@drawable/ic_mode_edit_black_24dp"
+            android:tint="@color/colorGrey" />
+        <Button
+            android:id="@+id/btn_join_class"
+            style="@style/ButtonBold"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_below="@id/iv_edit"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="16dp"
+            android:text="@string/text_join_live_class"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

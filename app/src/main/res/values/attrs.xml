@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MaterialSearchView">
+        <attr name="searchBackground" format="integer" />
+        <attr name="searchCloseIcon" format="integer" />
+        <attr name="searchBackIcon" format="integer" />
+        <attr name="android:hint" />
+        <attr name="android:textColor" />
+        <attr name="android:textColorHint" />
+        <attr name="android:inputType" />
+    </declare-styleable>
+
+    <declare-styleable name="MaterialScrollBar">
+        <attr name="msb_recyclerView" format="reference"/>
+        <attr name="msb_lightOnTouch" format="boolean|reference"/>
+        <attr name="msb_handleColor" format="color|reference"/>
+        <attr name="msb_barColor" format="color|reference"/>
+        <attr name="msb_handleOffColor" format="color|reference"/>
+        <attr name="msb_textColor" format="color|reference"/>
+        <attr name="msb_barThickness" format="dimension|reference"/>
+        <attr name="msb_rightToLeft" format="boolean|reference"/>
+        <attr name="msb_scrollMode" format="enum">
+            <enum name="firstVisible" value="0"/>
+            <enum name="lastElement" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>

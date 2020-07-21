@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_text_5">Study Material</string>
+    <string name="text_no_study_material">No Study Material Found</string>
+    <string name="text_folder">FOLDER</string>
+    <string name="text_video">VIDEO</string>
+    <string name="text_doc">DOCUMENT</string>
+    <string name="text_add_new_folder">Create Folder</string>
+    <string name="text_folder_name">Folder Name</string>
+    <string name="create_folder">Create New Folder</string>
+    <string name="text_edit_folder">Edit Folder</string>
+    <string name="text_add_new_document">Add Document</string>
+    <string name="text_document_name">Title</string>
+    <string name="create_document">Done</string>
+    <string name="add_file">Add File</string>
+    <string name="text_edit_document">Edit Document</string>
+</resources>

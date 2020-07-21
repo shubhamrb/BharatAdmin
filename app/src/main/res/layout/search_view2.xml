@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/search_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="invisible">
+
+    <View
+        android:id="@+id/transparent_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="8dp"
+        android:background="@color/colorBackground"
+        android:visibility="gone" />
+
+
+    <RelativeLayout
+        android:id="@+id/search_top_bar"
+        android:layout_width="match_parent"
+        android:layout_marginRight="8dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorBackground">
+
+        <EditText
+            android:id="@+id/searchTextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/text_search_for_a_person"
+            android:background="@null"
+            android:imeOptions="actionSearch"
+            android:inputType="textNoSuggestions"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:layout_toRightOf="@+id/action_up_btn"
+            android:singleLine="true"
+            android:theme="@style/EditTextRegular"
+            android:textColor="@color/colorPrimaryText"
+            android:textColorHint="@color/colorSecondaryText"
+            android:textSize="17sp" />
+
+        <ImageButton
+            android:background="@android:color/transparent"
+            android:id="@+id/action_up_btn"
+            android:layout_width="48dp"
+            android:padding="12dp"
+            android:layout_height="48dp"
+            android:layout_centerVertical="true"
+            android:tint="@color/colorGrey"
+            android:src="@drawable/ic_arrow_back_black_24dp" />
+
+
+        <ImageButton
+            android:background="@android:color/transparent"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:id="@+id/action_empty_btn"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="16dp"
+            android:layout_alignParentRight="true"
+            android:tint="@color/colorGrey"
+            android:src="@drawable/ic_close_black_24dp"
+            android:visibility="gone" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_alignParentBottom="true"
+            android:background="#fff"
+            android:backgroundTint="#10000000" />
+    </RelativeLayout>
+
+</FrameLayout>

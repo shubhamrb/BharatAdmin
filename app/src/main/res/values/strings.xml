@@ -1,0 +1,182 @@
+<resources>
+    <string name="app_name">Bharat Online</string>
+    <string name="app_version" translatable="false">1.0.02</string>
+    <string name="apk_version" translatable="false">1003</string>
+    <string name="title_classes">My Classes</string>
+    <string name="title_account">Account</string>
+    <string name="text_verify_your_mobile_number">Verify your mobile number</string>
+    <string name="text_info_choice">Log in to create and manage your own institute.</string>
+    <string name="text_country_code">+91</string>
+    <string name="text_phone_number">Phone number</string>
+    <string name="text_enter_verification_code">Enter verification code</string>
+    <string name="text_error_saving">Error occurred. Please retry!</string>
+    <string name="text_verify_mobile_number">Continue</string>
+    <string name="text_resend_code">Resend code</string>
+    <string name="text_verify_code">Verify code</string>
+    <string name="text_policy">By clicking continue you agree to the <a href="https://sites.google.com/view/bharatprivacy/home">Privacy Policy</a>.</string>
+    <string name="text_get_started">Get started</string>
+    <string name="text_invalid_number">Invalid phone number.</string>
+    <string name="text_invalid_code">Invalid code.</string>
+    <string name="text_cannot_empty">Cannot be empty.</string>
+    <string name="text_congratulations">Congratulations!</string>
+    <string name="text_your_institute_app_is_ready">Your institute app is ready!</string>
+
+    <string name="text_cancel">Cancel</string>
+    <string name="text_app_settings">App Settings</string>
+    <string name="text_contact_permission_desc">In order to add student or teacher, read access to your contacts is required. Please enable these permissions from the app settings.</string>
+    <string name="text_permission_required">Permission Required</string>
+    <string name="text_add_members">Add members</string>
+    <string name="text_all">All</string>
+    <string name="text_students">Students</string>
+    <string name="text_teachers">Teachers</string>
+    <string name="text_search">Search</string>
+    <string name="text_select_members">Select Members</string>
+    <string name="text_search_for_a_person">Search for a person</string>
+
+    <string name="title_activity_class_details">ClassDetailsActivity</string>
+    <string name="tab_text_1">Live</string>
+    <string name="tab_text_2">Members</string>
+    <string name="tab_text_3">Notes</string>
+    <string name="tab_text_4">Attendance</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_class_name">Class Name</string>
+    <string name="text_category_name">Category</string>
+    <string name="text_subcategory_name">Sub Category</string>
+    <string name="create_class">Create Class</string>
+    <string name="text_add_new_class">Create Class</string>
+    <string name="text_institute_name">Institute Name</string>
+    <string name="text_edit_class">Edit Class</string>
+    <string name="text_done">Done</string>
+    <string name="text_live_class_name">Class Title</string>
+    <string name="text_meeting_url">Meeting Url</string>
+    <string name="text_meeting_id">Meeting ID/Password (Optional)</string>
+    <string name="text_teaher_name">Teacher Name</string>
+    <string name="text_schedule">Schedule</string>
+    <string name="create_live_class">Create Live Class</string>
+    <string name="text_your_name">Your Name</string>
+    <string name="text_your_institute_name">Your Institute Name</string>
+    <string name="text_next">Next</string>
+    <string name="text_fill_all_entries">Please fill all entries</string>
+    <string name="select_any_one_option">Whom you want to add</string>
+
+    <string name="text_schedule_day"><u>Schedule Day</u></string>
+    <string name="text_schedule_time"><u>Time</u></string>
+    <string name="text_note_name">Note Title</string>
+    <string name="text_note_text">Note Description</string>
+    <string name="create_note">Create New Note</string>
+    <string name="text_add_new_note">Create Note</string>
+    <string name="text_customer_support">Chat with customer support</string>
+    <string name="text_rate_us">Rate us</string>
+    <string name="text_enter_your_name">Enter your name</string>
+    <string name="enter_valid_name">Enter valid name!</string>
+    <string name="text_add_new_live_class">Create Live Class</string>
+    <string name="text_starts_at">"starts at "</string>
+    <string name="text_edit_live_class">Edit Live Class</string>
+    <string name="text_edit_note">Edit Note</string>
+    <string name="text_create_insitute">Take your institute online within a minute!</string>
+    <string name="text_delete">Delete</string>
+    <string name="text_enter_your_institute_name">Enter your institute name</string>
+    <string name="text_press_exit">Press back again to exit</string>
+    <string name="text_update_name_error">Your name has not been updated. Please retry!</string>
+    <string name="text_mobile_no">Mobile no.</string>
+    <string name="text_member_name">Member name</string>
+    <string name="text_close">Close</string>
+    <string name="text_no_live_classes">No Live Classes Found</string>
+    <string name="text_no_notes">No Notes Found</string>
+    <string name="text_no_class">No Classes Found</string>
+    <string name="text_no_members">No Members added yet</string>
+    <string name="text_add_member_limit">You can add up to only 10 people at a time.</string>
+    <string name="text_add_member_manually">Add member manually</string>
+    <string name="enter_valid_mob_no">Enter valid mobile number!</string>
+    <string name="text_attended_students">Attended students</string>
+    <string name="text_no_attendance">No attendance found!</string>
+    <string name="text_class_started">Class has started</string>
+    <string name="text_join_live_class">Join</string>
+    <string name="text_share_student_app">Share Campus app</string>
+    <string name="text_app_update_required">App update required!</string>
+    <string name="text_app_update_desc">As we have promised we always try to improve this app for you. To continue using this app you need to update the app. Thanks!</string>
+    <string name="tab_text_5">Study Material</string>
+    <string name="text_no_study_material">No Study Material Found</string>
+    <string name="text_folder">FOLDER</string>
+    <string name="text_video">VIDEO</string>
+    <string name="text_doc">DOCUMENT</string>
+    <string name="text_add_new_folder">Create Folder</string>
+    <string name="text_folder_name">Folder Name</string>
+    <string name="create_folder">Create New Folder</string>
+    <string name="text_edit_folder">Edit Folder</string>
+    <string name="text_add_new_document">Add Document</string>
+    <string name="text_document_name">Title</string>
+    <string name="create_document">Done</string>
+    <string name="add_file">Add File</string>
+    <string name="text_edit_document">Edit Document</string>
+
+
+    <string-array name="days">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+
+    <string-array name="class_categories">
+        <item>Academics</item>
+        <item>Coding &amp; Tech</item>
+        <item>Arts &amp; Hobbies</item>
+        <item>Health &amp; Sports</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="category_academics">
+        <item>Class 1</item>
+        <item>Class 2</item>
+        <item>Class 3</item>
+        <item>Class 4</item>
+        <item>Class 5</item>
+        <item>Class 6</item>
+        <item>Class 7</item>
+        <item>Class 8</item>
+        <item>Class 9</item>
+        <item>Class 10</item>
+        <item>Class 11</item>
+        <item>Class 12</item>
+        <item>Diploma</item>
+        <item>UG</item>
+        <item>PG</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="category_coding">
+        <item>C++</item>
+        <item>Java</item>
+        <item>Python</item>
+        <item>JavaScript</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="category_arts">
+        <item>Dance</item>
+        <item>Music</item>
+        <item>Cooking</item>
+        <item>Acting</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="category_health">
+        <item>Exercise</item>
+        <item>Yoga</item>
+        <item>Cricket</item>
+        <item>Football</item>
+        <item>Chess</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="category_others">
+        <item>Others</item>
+    </string-array>
+
+</resources>
